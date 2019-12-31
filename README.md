@@ -1,4 +1,4 @@
-# Image_inside_Script
+# Image inside Script
 Python 3.8 using base64 and pillow library.
 
 - Convert image files into string or binary with base64 library.
