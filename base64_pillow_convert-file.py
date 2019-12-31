@@ -13,7 +13,7 @@ todo: Documentation
     Modules required: pillow, base64
 """
 __author__ = 'Ariel Montes Nogueira - http://www.montes.ml'
-__email__ = 'ariel.mn@icloud.com'
+__email__ = 'arielmontes1989@gmail.com'
 
 __copyright__ = 'Copyright © 2019-present Ariel Montes Nogueira'
 __credits__ = []
@@ -29,7 +29,8 @@ __license__ = '''
                 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
                 See the License for the specific language governing permissions and
                 limitations under the License.'''
-__version__ = '0.1'
+__recovery__ = 'https://github.com/Ariel-MN/Image_inside_Script'
+__version__ = '1.0'
 
 
 import base64
@@ -43,13 +44,13 @@ try:
         encoded_string = encoded_binary.decode("utf-8")  # String image convertion
 
     print("<< Format: Binary >>\n")
-    print(encoded_binary)  # copy this output
+    print(encoded_binary)
 
     print("\n<< Format: String utf-8 >>\n")
-    print(encoded_string)   # copy this output
+    print(encoded_string)
 except: pass
 
-# Encode Binary Output-Example:
+# Encode Binary Output:
 pic_b = b'UDYKMTQwIDE0MAoyNTUKjZaVjZaVjZaVjpeWj5iXkJmYkZqZkZqZk5ybk5ybk5ybk5ybk5ybk5yb\nk5ybk5yblJ2clJ2clZ6dlp+elp+el' \
         b'p+el6CfmKGgm6Sjm6Sjm6Sjm6Sjm6Sjm6SjnKWknKWknqem\nnaalnaalnaalnaalnqemnqemn6inoKmooKmooKmooKmooKmooKmooaqpoa' \
         b'qpoaqpoaqpoaqpoaqp\noaqpoaqpoaqpoaqpoKmooKmooKmon6innqemnqemnaalnaaln6innqemnqemnaalnaalnKWknKWk\nm6Sjm6Sjm' \
@@ -804,7 +805,7 @@ pic_b = b'UDYKMTQwIDE0MAoyNTUKjZaVjZaVjZaVjpeWj5iXkJmYkZqZkZqZk5ybk5ybk5ybk5ybk5
         b'UH\nj5WVnqemGB4cTE5NCAYHCAYHDAwMCwsLDAwMBQUDCwsJOT46hoyK2uTj2ejl4u7s4Ozq4+3s5e/u\n3+no3OblvcfGnqinpa6toaqpm' \
         b'6SjmKGglp+elZ6dlZ6dlp+emaKhmqOinKWknaal\n'
 
-# Encode String Output-Example:
+# Encode String Output:
 pic_s = """UDYKMTQwIDE0MAoyNTUKjZaVjZaVjZaVjpeWj5iXkJmYkZqZkZqZk5ybk5ybk5ybk5ybk5ybk5yb
 k5ybk5yblJ2clJ2clZ6dlp+elp+elp+el6CfmKGgm6Sjm6Sjm6Sjm6Sjm6Sjm6SjnKWknKWknqem
 naalnaalnaalnaalnqemnqemn6inoKmooKmooKmooKmooKmooKmooaqpoaqpoaqpoaqpoaqpoaqp
