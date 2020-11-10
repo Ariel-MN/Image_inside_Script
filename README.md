@@ -1,4 +1,8 @@
 # Image inside Script
+[![Created Repository](https://badges.pufler.dev/created/Ariel-MN/Image_inside_Script)](https://github.com/Ariel-MN/Image_inside_Script)
+[![Updated Repository](https://badges.pufler.dev/updated/Ariel-MN/Image_inside_Script)](https://github.com/Ariel-MN/Image_inside_Script)
+[![Visits Repository](https://badges.pufler.dev/visits/Ariel-MN/Image_inside_Script)](https://github.com/Ariel-MN/Image_inside_Script)
+
 ## Python 3.8 using base64 and Pillow library.
 
 <br>
